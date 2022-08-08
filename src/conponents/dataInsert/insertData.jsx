@@ -8,6 +8,7 @@ function InsertData() {
         companyname: "",
         guestname: "",
         nationality: "",
+        Checkin:""
     })
     const input = [{
         id: 1,
