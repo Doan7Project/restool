@@ -1,12 +1,13 @@
-import './App.css';
-import Login from './conponents/login';
-import InputData from './conponents/insertData';
-import 'bootstrap/dist/css/bootstrap.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Login from "./conponents/login/login";
+import InsertData from "./conponents/dataInsert/insertData";
+
 function App() {
   return (
     <div>
-      {/* <Login></Login> */}
-      <InputData/>
+      {/* <Login /> */}
+      <InsertData/>
     </div>
   );
 }
