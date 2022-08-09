@@ -69,7 +69,7 @@ function Login() {
                     <InputForm key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
                 )}
                 {(error !="") ? (<div className='error'>{error}</div>):""}
-                <button>login</button>
+                <button className='loginbutton'>login</button>
             </form>
         </div>
     );

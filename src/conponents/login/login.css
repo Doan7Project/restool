@@ -34,3 +34,13 @@ position: relative;
   margin-top: 20px;
   margin-bottom: 30px;
 }
+.loginbutton{
+  display: inline-block;
+  background-image: linear-gradient(to right,rgba(13, 97, 167, 0.5) 50%, rgb(10, 108, 126) 60%,rgb(61, 61, 61));
+  background-position: 0%;
+  background-size: 200%;
+  transition: 0.4s;
+}
+.LoginS form button:hover{
+  background-position: 100% 0%;
+}
