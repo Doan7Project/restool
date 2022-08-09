@@ -4,19 +4,12 @@ import "./loginChild.css";
 
 function InputForm(props) {
     const [focused, setFocus] = useState(false);
-
-    const { lable, errorMessage, onChange, id, ...inputProps } = props;
-    const handleFocus = (e) => {
-
-        setFocus(true);
-    };
+    const { lable, errorMessage,onChange, id, ...inputProps } = props;
     return (
         <div className='loginForm'>
-
             <label htmlFor="">{lable}</label>
-            <input {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString( ) }/>
+            <input {...inputProps} onChange={onChange}/>
             <span>{errorMessage}</span>
-
         </div>
     );
 }

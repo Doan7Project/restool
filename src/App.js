@@ -6,8 +6,8 @@ import InsertData from "./conponents/dataInsert/insertData";
 function App() {
   return (
     <div>
-      {/* <Login /> */}
-      <InsertData/>
+      <Login />
+      {/* <InsertData/> */}
     </div>
   );
 }

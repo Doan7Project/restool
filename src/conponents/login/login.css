@@ -11,27 +11,19 @@ radial-gradient(ellipse at bottom, #789f0c, transparent);
   margin: 10px 0px 20px;
   z-index: 1;
 }
-.circleDeg{
-position: absolute;
-background-color: #7da50fda;
-width: 30px;
-height: 30px;
-left: 0%;
-top: 0%;
-}
-form {
+.LoginS form {
 position: relative;
   background-color: white;
   padding: 30px 50px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px 0px rgb(71, 71, 71);
 }
-h1 {
+.LoginS h1 {
   text-align: center;
   color: rgb(68, 68, 68);
   font-weight: bolder;
 }
-button {
+.LoginS button {
   width: 100%;
   padding: 8px 0px;
   font-weight: bolder;
