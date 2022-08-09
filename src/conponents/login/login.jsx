@@ -36,7 +36,6 @@ function Login() {
         name: "username",
         type: "email",
         placeholder: "Email address",
-        errorMessage: "Your Email should be correct format",
         lable: "Username",
         required: true
     },
@@ -45,7 +44,6 @@ function Login() {
         name: "password",
         type: "password",
         placeholder: "Password",
-        errorMessage: "Your Password should be not empty",
         lable: "Password",
         required: true
     }
